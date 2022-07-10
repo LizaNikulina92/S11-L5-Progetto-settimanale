@@ -1,0 +1,17 @@
+$white: #fff;
+li{
+  display: inline-block;
+  text-decoration: none;
+}
+ul{
+  display: flex;
+}
+
+a {
+  color: $white;
+  text-decoration: none;
+  margin-left: 1em;
+}
+button{
+  margin-left: 3em;
+}

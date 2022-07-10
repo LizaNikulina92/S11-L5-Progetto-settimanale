@@ -1,0 +1,77 @@
+<div class="container">
+  <form #f="ngForm" (ngSubmit)="onSubmit()">
+    <mat-card>
+      <mat-card-title>Sign-up</mat-card-title>
+      <mat-card-content class="container-form">
+        <mat-horizontal-stepper #stepper>
+          <mat-step>
+            <ng-template matStepLabel>Fill out your name</ng-template>
+        <mat-form-field>
+          <mat-label for="firstname">First Name:</mat-label>
+          <input
+            matInput
+            name="firstname"
+            ngModel
+            type="text"
+            id="firstname"
+            placeholder="Enter First Name"
+            required
+          /><mat-error *ngIf="value.invalid"
+            >{{getErrorMessageValue()}}</mat-error
+          >
+        </mat-form-field>
+        <mat-form-field>
+          <mat-label for="lastname">Last Name:</mat-label>
+          <input
+            matInput
+            name="lastname"
+            ngModel
+            type="text"
+            id="lastname"
+            placeholder="Enter Last Name"
+            required
+          /><mat-error *ngIf="value.invalid"
+            >{{getErrorMessageValue()}}</mat-error
+          ></mat-form-field
+        >
+      </mat-step>
+      <mat-step>
+        <ng-template matStepLabel>Fill out your email</ng-template>
+        <mat-form-field>
+          <mat-label for="email">Email address:</mat-label>
+          <input
+            matInput
+            name="email"
+            ngModel
+            type="email"
+            id="email"
+            placeholder="Enter email"
+            required
+          />
+          <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+        </mat-form-field>
+        <mat-form-field>
+          <mat-label for="password">Password:</mat-label>
+          <input
+            matInput
+            name="password"
+            ngModel
+            type="password"
+            id="password"
+            placeholder="Password"
+            required
+          /><mat-error *ngIf="value.invalid"
+            >{{getErrorMessageValue()}}</mat-error
+          >
+          </mat-form-field
+        ></mat-step>
+      </mat-horizontal-stepper>
+      </mat-card-content>
+      <mat-card-actions>
+        <button mat-raised-button color="accent" type="submit">Submit</button>
+         <div *ngIf="error" role="alert">{{error}}</div>
+      </mat-card-actions>
+    </mat-card>
+  </form>
+</div>
+

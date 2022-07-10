@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "email": "p.paolini@gmail.com",
+      "password": "$2a$10$Ufwf6Q2V8bhiDCqpyFnL5udfX2af98VeiDDPhbwCRaYNAoiQkr4ZG",
+      "firstname": "Paolo",
+      "lastname": "Paolini",
+      "id": 1
+    },
+    {
+      "email": "coloo@hotmail.it",
+      "password": "$2a$10$Tg6na4jcrLe2yf.ASvznrOdBKllvtqNUTOjwOAucmWvDylgmnp1AC",
+      "firstname": "Davide",
+      "lastname": "Colombo",
+      "id": 2
+    },
+    {
+      "email": "a.baglio@gmail.com",
+      "password": "$2a$10$sPBAG93CKbGZu7PX6SOPY.u5c60khbnELLlc4b9eEQg1G1peO7FRm",
+      "firstname": "Aldo",
+      "lastname": "Baglio",
+      "id": 3
+    },
+    {
+      "email": "g.storti@gmail.com",
+      "password": "$2a$10$4e1VYjRzeMvNV5KLRDNDwOVsMBG7Wm9o.MP/w4nqjJDnJzZ18FHzW",
+      "firstname": "Giovanni",
+      "lastname": "Storti",
+      "id": 4
+    },
+    {
+      "email": "g.poretti@gmail.com",
+      "password": "$2a$10$ejPHEGI4C5dKkvXVnIcLauRdAAcSgrWms05yndmmmhI/.NyHykhC6",
+      "firstname": "Giacomo",
+      "lastname": "Poretti",
+      "id": 5
+    },
+    {
+      "email": "m.amantia@gmail.com",
+      "password": "$2a$10$xru3KmEpQK34fcB2cHMnPu74SbFAY26HsIcgkLeuQibCKryO1xEOa",
+      "firstname": "Matteo",
+      "lastname": "Amantia",
+      "id": 6
+    }
+  ]
+}
