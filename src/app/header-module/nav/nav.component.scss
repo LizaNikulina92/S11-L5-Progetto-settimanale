@@ -1,9 +1,9 @@
 $white: #fff;
-li{
+li {
   display: inline-block;
   text-decoration: none;
 }
-ul{
+ul {
   display: flex;
 }
 
@@ -11,7 +11,12 @@ a {
   color: $white;
   text-decoration: none;
   margin-left: 1em;
+  font-size: 1rem;
 }
-button{
+.router-link-active {
+  border-bottom: 2px solid #ffd740;
+  color: #ffd740;
+}
+button {
   margin-left: 3em;
 }
