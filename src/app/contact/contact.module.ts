@@ -4,11 +4,13 @@ import { ContactRoutingModule } from './contact-routing.module';
 /* import { ContactPage } from './contact.page'; */
 import { ContactComponent } from './contact.page';
 import {MatExpansionModule} from '@angular/material/expansion';
+import { ExpansionComponent } from './expansion/expansion.component';
 
 
 @NgModule({
   declarations: [
-    ContactComponent
+    ContactComponent,
+    ExpansionComponent
 
   ],
   imports: [

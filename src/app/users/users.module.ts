@@ -8,6 +8,7 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
 import {MatListModule} from '@angular/material/list';
 import {MatCardModule} from '@angular/material/card';
+import { CardComponent } from './card/card.component';
 
 const routes: Routes = [
   {path: '', component: UsersPage}
@@ -15,7 +16,8 @@ const routes: Routes = [
 
 @NgModule({
   declarations: [
-    UsersPage
+    UsersPage,
+    CardComponent
   ],
   imports: [
     CommonModule,
